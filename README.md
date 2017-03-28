@@ -6,7 +6,7 @@ Here's how to do it:
 1. Make an account on https://www.heroku.com/. It is free and doesn't even require you to enter payment info
 2. Go into https://dashboard.heroku.com and click New, then Create New App.
 3. Pick some random app name or let it choose one for you it doesn't really matter because this is just the websocket url that no one will see. Mine is nameless-scrubland-88927 but insert yours into the commands below instead
-4. Install the [heroku cli](https://devcenter.heroku.com/articles/heroku-cli)
+4. Install the [heroku cli](https://devcenter.heroku.com/articles/heroku-cli), nodejs, and npm
 5. Clone this repo
 
 git clone `https://github.com/Phylliida/UnityP2P.git`
@@ -35,7 +35,7 @@ then copy the server code (HerokuServer) into a directory without the .git file
 
 The -f (force) you shouldn't usually do but we need to override the initial configuration and this is the easiest way to do that.
 
-You can tweak the config.json file if you want but that isn't really needed
+You can tweak the config.json file if you want but that isn't really needed. You should also generate your own certificates in production but these work fine for testing small projects.
 
 9. Open Unity, then select the UnityProject folder in this git repo to open it
 10. Open the scene ExampleP2P (in the Assets folder) if it is not already open
