@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/ExampleP2P.unity
+  isLoaded: 1
+  isActive: 1
