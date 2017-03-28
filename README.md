@@ -1,6 +1,15 @@
 # UnityP2P
 Peer to peer networking in Unity using WebRTC and a free Heroku server for signaling.
 
+The general idea is that you use the free WebRTC plugin for unity then use a free Heroku server as your signaling server. There are a lot of small details like the server shutting down automatically (even if you don't want it to) after a few minutes of inactivity that just took some fiddling to figure out but I have made small tweaks that fix those issues.
+In general the way it works is one person "hosts" a "server" at an id they chose (this can be pretty much any string). The quotes are because unlike a traditional server all this does is two things:
+
+1. The WebRTC protocol is such that anyone else that connects with that id is initially connected to that server
+
+2. Once they are connected it sends them a list of all the current peers, and each current peer gets notified by the server that that peer joined. 
+
+After that, a peer can send messages to another peer without going through the server, which is the definition of a peer to peer network 
+
 Here's how to do it:
 
 1. Make an account on https://www.heroku.com/. It is free and doesn't even require you to enter payment info
