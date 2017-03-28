@@ -18,7 +18,7 @@ Here's how to do it:
 4. Install the [heroku cli](https://devcenter.heroku.com/articles/heroku-cli), nodejs, and npm
 5. Clone this repo
 
-git clone `https://github.com/Phylliida/UnityP2P.git`
+`git clone https://github.com/Phylliida/UnityP2P.git`
 
 then copy the server code (HerokuServer) into a directory without the .git file
 
