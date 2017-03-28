@@ -8,7 +8,7 @@ In general the way it works is one person "hosts" a "server" at an id they chose
 
 2. Once they are connected it sends them a list of all the current peers, and each current peer gets notified by the server that that peer joined. 
 
-After that, a peer can send messages to another peer without going through the server, which is the definition of a peer to peer network 
+After that, a peer can send messages to another peer without going through the server, which is the definition of a peer to peer network :) 
 
 Here's how to do it:
 
