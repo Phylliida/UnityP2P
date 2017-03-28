@@ -1,5 +1,5 @@
 # UnityP2P
-Peer to peer networking in Unity using a free Heroku server for signaling.
+Peer to peer networking in Unity using WebRTC and a free Heroku server for signaling.
 
 Here's how to do it:
 
