@@ -27,6 +27,8 @@ then copy the server code (HerokuServer) into a directory without the .git file
 
 8. Now deploy your server
 
+`npm install`
+
 `git add .`
 
 `git commit -am "Initial upload"`
