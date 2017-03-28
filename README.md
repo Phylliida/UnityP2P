@@ -20,6 +20,7 @@ then copy the server code (HerokuServer) into a directory without the .git file
 7. Then create a new git repo there that will store your server code (Heroku works by having a git repo you manage your server code with)
 
 `git init`
+
 `heroku git:remote -a nameless-scrubland-88927`
 
 (except use your server instead)
@@ -27,8 +28,12 @@ then copy the server code (HerokuServer) into a directory without the .git file
 8. Now deploy your server
 
 `git add .`
+
 `git commit -am "Initial upload"`
-`git push heroku master`
+
+`git push -f heroku master`
+
+The -f (force) you shouldn't usually do but we need to override the initial configuration and this is the easiest way to do that.
 
 You can tweak the config.json file if you want but that isn't really needed
 
