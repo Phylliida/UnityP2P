@@ -72,33 +72,33 @@ There is a `P2PServer` class and a `P2PClient` class. You can think of this as a
 
 To initialize a `P2PServer` you do:
 
-`
+```
 string signalingServer = "wss://my-herokuserver-1234.herokuapp.com"; // Use your server as discussed above here
 string roomName = "hi";
-P2PServer server = new P2PServer(signalingServer, roomName);\
-`
+P2PServer server = new P2PServer(signalingServer, roomName);
+```
 
 The room name is a unique identifier that lets multiple P2P servers run at the same time. If I choose the identifier of, say, "hi", then any client that connects that chooses that same id will connect to me. Then they will be able to send messages to anyone else that has also connected to me with that identifier.
 
 The server needs to poll itself internally to process messages. To get it to do this, just call
 
-`
+```
 server.UpdateServer();
-`
+```
 
 Each frame (putting this in `Update()` works well, for example).
 
 
 Now to make callbacks that will be called when events occur, you do soemthing like the following
 
-`
+```
 server.OnConnection += Server_OnConnection;
 server.OnDisconnection += Server_OnDisconnection;
-`
+```
 
 Where we define those functions as:
 
-`
+```
 void Server_OnConnection(ConnectionId connectionId)
 {
   Debug.Log("Client: " + connectionId.ToString() + " connected");
@@ -109,19 +109,19 @@ void Server_OnDisconnection(ConnectionId connectionId)
 {
   Debug.Log("Client: " + connectionId.ToString() + " disconnected");
 }
-`
+```
 
 The server will keep track of a list of peers internally so you don't need to store them yourself.
 
 Now to actually receive messages, we can do:
 
-`
+```
 server.OnReceivedMessage += Server_OnReceivedMessage;
-`
+```
 
 Where
 
-`
+```
 void Server_OnReceivedMessage(NetworkEvent message)
 {
   // The data sent by the peer
@@ -153,7 +153,7 @@ void Server_OnReceivedMessage(NetworkEvent message)
   string msg = Encoding.UTF8.GetString(message.MessageData.Buffer, message.MessageData.Offset, message.MessageData.ContentLength);
   Debug.Log("Server received message: " + msg + " from client " + message.ConnectionId.ToString());
 }
-`
+```
 
 There are two ways to send messages, reliable and unreliable.
 
@@ -163,15 +163,15 @@ Unreliable messages (UDP) may be received more than once, may not be received at
 
 You can do
 
-`
+```
 bool isReliable = (message.Type == NetEventType.ReliableMessageReceived);
-`
+```
 
 To learn if the message you received was sent in a reliable way or not.
 
 To send a message, there are two options: send to a specific peer:
 
-`
+```
 // Make some byte[] data; above
 
 // You can pick this
@@ -189,26 +189,26 @@ int dataOffset = 0;
 int dataLen = 0;
 
 server.SendMessage(connectionId, data, dataOffset, dataLen, isReliable);
-`
+```
 
 To send a message to everyone, you can do
 
-`
+```
 server.SendMessageToAll(data, isReliable);
 // or
 server.SendMessage(data, dataOffset, dataLen, isReliable);
-`
+```
 
 
 Once you are done with the server, you can close it via
 
-`
+```
 server.Dispose();
-`
+```
 
 You should probably do something like this because cleaning it up is necessary:
 
-`
+```
 void OnApplicationQuit()
 {
   server.Dispose();
@@ -218,7 +218,7 @@ private void OnDestroy()
 {
   server.Dispose();
 }
-`
+```
 
 Don't worry about calling it multiple times, it checks if it is already disposed and doesn't do anything if `Dispose()` has already been called.
 
@@ -226,13 +226,13 @@ Don't worry about calling it multiple times, it checks if it is already disposed
 
 To initialize a client, you do
 
-`
+```
 P2PClient client = new P2PClient(signalingServer, roomName);
-`
+```
 The client needs to poll itself internally to process messages. To get it to do this, just call
-`
+```
 client.UpdateClient();
-`
+```
 
 Each frame (putting this in `Update()` works well, for example).
 
