@@ -188,8 +188,11 @@ public class P2PServer : IDisposable
                             PrintDebug(msg);
 
                             peers[evt.ConnectionId.ToString()] = evt.ConnectionId;
-
-                            OnConnection(evt.ConnectionId);
+                            
+                            if (OnConnection != null)
+                            {
+                                OnConnection(evt.ConnectionId);
+                            }
                         }
                         break;
                     case NetEventType.ConnectionFailed:
@@ -210,18 +213,26 @@ public class P2PServer : IDisposable
                             {
                                 peers.Remove(evt.ConnectionId.ToString());
                             }
-
-                            OnDisconnection(evt.ConnectionId);
+                            if (OnDisconnection != null)
+                            {
+                                OnDisconnection(evt.ConnectionId);
+                            }
                         }
                         break;
                     case NetEventType.ReliableMessageReceived:
                         {
-                            OnReceivedMessage(evt);
+                            if (OnReceivedMessage != null)
+                            {
+                                OnReceivedMessage(evt);
+                            }
                         }
                         break;
                     case NetEventType.UnreliableMessageReceived:
                         {
-                            OnReceivedMessage(evt);
+                            if (OnReceivedMessage != null)
+                            {
+                                OnReceivedMessage(evt);
+                            }
                         }
                         break;
                 }
