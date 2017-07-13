@@ -153,7 +153,10 @@ public class P2PClient : IDisposable {
                             //user runs the server and a new client connected
                             PrintDebug("New local connection! ID: " + evt.ConnectionId);
                             peers[evt.ConnectionId.ToString()] = evt.ConnectionId;
-                            OnConnection(evt.ConnectionId);
+                            if (OnConnection != null)
+                            {
+                                OnConnection(evt.ConnectionId);
+                            }
                         }
                         break;
                     case NetEventType.ConnectionFailed:
@@ -176,13 +179,19 @@ public class P2PClient : IDisposable {
                             {
                                 peers.Remove(evt.ConnectionId.ToString());
                             }
-
-                            OnDisconnection(evt.ConnectionId);
+                            
+                            if (OnDisconnection != null)
+                            {
+                                OnDisconnection(evt.ConnectionId);
+                            }
                         }
                         break;
                     case NetEventType.ReliableMessageReceived:
                         {
-                            OnReceivedMessage(evt);
+                            if (OnReceivedMessage != null)
+                            {
+                                OnReceivedMessage(evt);
+                            }
                             // Maybe call 
                             // evt.MessageData.Dispose();
                             // ? Idk. Same for Unreliable
@@ -190,7 +199,10 @@ public class P2PClient : IDisposable {
                         break;
                     case NetEventType.UnreliableMessageReceived:
                         {
-                            OnReceivedMessage(evt);
+                            if (OnReceivedMessage != null)
+                            {
+                                OnReceivedMessage(evt);
+                            }
                         }
                         break;
                 }
