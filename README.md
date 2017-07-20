@@ -3,7 +3,7 @@ Peer to peer networking in Unity using WebRTC and a free Heroku server for signa
 
 UPDATE:
 
-I rewrote the code because, if we're honest, it was trash. It worked okay but it disconnected every 40 seconds or so and then there was this time of inactivity before they got reconnected. Also, the whole "server" and "client" thing shouldn't actually be a thing: the point is you hop in a room and just see anyone else that is there.
+I rewrote the code (see BetterUnityProject) because, if we're honest, it was trash. It worked okay but it disconnected every 40 seconds or so and then there was this time of inactivity before they got reconnected. Also, the whole "server" and "client" thing shouldn't actually be a thing: the point is you hop in a room and just see anyone else that is there.
 
 The problem was the WebRTC Unity Plugin I was using. I finally decided to ditch it and use a Chromium plugin to run WebRTC code in a simulated browser in Unity. This lets you have all the functionality that normal WebRTC has. Video and audio streaming is very doable as a result, I haven't added it yet but that's nice.
 
