@@ -1,16 +1,61 @@
 # UnityP2P
 Peer to peer networking in Unity using WebRTC and a free Heroku server for signaling.
 
-The general idea is that you use the free WebRTC plugin for unity then use a free Heroku server as your signaling server. There are a lot of small details like the server shutting down automatically (even if you don't want it to) after a few minutes of inactivity that just took some fiddling to figure out but I have made small tweaks that fix those issues.
-In general the way it works is one person "hosts" a "server" at an id they chose (this can be pretty much any string). The quotes are because unlike a traditional server all this does is two things:
+UPDATE:
 
-1. The WebRTC protocol is such that anyone else that connects with that id is initially connected to that server
+I rewrote the code because, if we're honest, it was trash. It worked okay but it disconnected every 40 seconds or so and then there was this time of inactivity before they got reconnected. Also, the whole "server" and "client" thing shouldn't actually be a thing: the point is you hop in a room and just see anyone else that is there.
 
-2. Once they are connected it sends them a list of all the current peers, and each current peer gets notified by the server that that peer joined. 
+The problem was the WebRTC Unity Plugin I was using. I finally decided to ditch it and use a Chromium plugin to run WebRTC code in a simulated browser in Unity. This lets you have all the functionality that normal WebRTC has. Video and audio streaming is very doable as a result, I haven't added it yet but that's nice.
 
-After that, a peer can send messages to another peer without going through the server, which is the definition of a peer to peer network :) 
+So now that the code is simple enough, here is an example of how it works:
 
-Here's how to do it:
+```c#
+using UnityEngine;
+using UnityP2P;
+
+public class ExampleUsage : MonoBehaviour {
+
+    public P2PPeer peer;
+
+    // Use this for initialization
+    void Start() {
+        peer.OnConnection += Peer_OnConnection;
+        peer.OnDisconnection += Peer_OnDisconnection;
+        peer.OnMessageFromPeer += Peer_OnMessage;
+        peer.OnGetID += Peer_OnGetID;
+    }
+
+    private void Peer_OnGetID(string id)
+    {
+        Debug.Log("my id is: " + id);
+    }
+
+    void Peer_OnMessage(string id, string message)
+    {
+        Debug.Log(id + " sent message: " + message);
+    }
+
+    void Peer_OnDisconnection(string id)
+    {
+        Debug.Log(id + " disconnected");
+    }
+
+    void Peer_OnConnection(string id)
+    {
+        Debug.Log(id + " connected");
+        peer.Send(id, "Hi there");
+    }
+}
+
+```
+
+Where `P2PPeer` is a script (MonoBehavior) that you can attach onto a game object in unity. The `P2PPeer` has a string paramater you'll see in the editor named roomName. I initially set this to "beans" but you can choose whatever you want. Then you press play and you will automatically connect to any other users that are in that room right now (sometimes there is a 5-10 second delay before you connect to them, this is to minimize signaling server bandwith). You can then send messages directly to someone (over WebRTC) and others can send them to you too :) Enjoy!
+
+
+OLD STUFF, I'LL GIVE NEW (very similar) INSTRUCTIONS FOR YOUR SIGNALING SERVER IN A BIT
+
+
+Here's how to do it
 
 1. Make an account on https://www.heroku.com/. It is free and doesn't even require you to enter payment info
 2. Go into https://dashboard.heroku.com and click New, then Create New App.
