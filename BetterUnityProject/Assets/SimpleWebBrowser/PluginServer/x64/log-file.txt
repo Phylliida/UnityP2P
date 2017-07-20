@@ -1,0 +1,324 @@
+2016-09-02 18:03:10,302 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2016-09-02 18:03:10,437 [1] INFO  SharedPluginServer.Program [(null)] - ARGS:
+2017-02-27 17:15:56,645 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-02-27 17:15:56,743 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:500,height:500,url:http://www.google.com,memfile:48184c0b-8d2c-4074-bc0b-1011dae9f8a3,port:8315
+2017-02-27 17:16:05,327 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-02-27 17:16:07,998 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-02-27 17:16:08,062 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:500,height:500,url:http://www.google.com,memfile:9bb0b443-e767-4514-a92c-de677ad8941e,port:8135
+2017-02-27 17:16:11,097 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-02-27 18:24:29,979 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-02-27 18:24:30,046 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:500,height:500,url:http://www.google.com,memfile:0fdef6cd-1bda-4815-84fa-aabf5c41bc1b,port:8008
+2017-02-27 18:24:35,168 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2017-02-27 18:24:35,803 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-02-27 18:24:35,863 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:500,height:500,url:http://www.google.com,memfile:0fdef6cd-1bda-4815-84fa-aabf5c41bc1b,port:8008
+2017-02-27 18:24:40,837 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-02-27 18:24:55,005 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-02-27 18:24:55,072 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:500,height:500,url:http://www.google.com,memfile:e3e562f6-4ddb-424d-b290-4f2f7fb63fb8,port:8426
+2017-02-27 18:25:06,324 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 13:13:36,669 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 13:13:36,699 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:file:///C:/Users/Danielle/Desktop/beans.html,memfile:56b03842-c879-496b-a722-3b2e4458eb19,port:8396
+2017-07-04 13:13:41,762 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 13:13:44,999 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 13:13:45,028 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:file:///C:/Users/Danielle/Desktop/beans.html,memfile:58075f3b-a2ff-4f88-a541-f88eb0d7b2ce,port:8222
+2017-07-04 13:13:55,807 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 13:14:20,606 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 13:14:20,635 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:file:///C:/Users/Danielle/Desktop/beans.html,memfile:8e26a20f-30a9-40c0-80a3-bd6215113ddc,port:8606
+2017-07-04 13:14:31,853 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 13:14:53,489 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 13:14:53,519 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:file:///C:/Users/Danielle/Desktop/beans.html,memfile:d3bba8cb-75b3-45f9-84eb-20203dc0195d,port:8782
+2017-07-04 13:15:07,314 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 13:15:42,933 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 13:15:42,962 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:file:///C:/Users/Danielle/Desktop/beans.html,memfile:b52f9d19-3a64-4c22-9fa9-3d47481bc81c,port:8140
+2017-07-04 13:15:48,698 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 13:17:49,229 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 13:17:49,261 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:file:///C:/Users/Danielle/Desktop/beans.html,memfile:c1942fb9-0f12-47d3-a20a-04b5ec4bc32e,port:8659
+2017-07-04 13:17:54,832 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 13:18:24,139 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 13:18:24,167 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:file:///C:/Users/Danielle/Desktop/beans.html,memfile:1d4da92f-9f92-4ca9-8fcf-cb05322b0dc8,port:8352
+2017-07-04 13:18:33,619 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 13:21:04,243 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 13:21:04,272 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:024926f4-4d0c-40e0-8162-bf2e44e915da,port:8860
+2017-07-04 13:21:16,857 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 13:21:23,064 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 13:21:23,095 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:4ed1cf9b-3aad-4a59-b80f-bbb38f519bea,port:8969
+2017-07-04 13:21:27,092 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2017-07-04 13:21:27,194 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 13:21:27,222 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:4ed1cf9b-3aad-4a59-b80f-bbb38f519bea,port:8969
+2017-07-04 13:21:29,227 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 13:21:48,890 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 13:21:48,918 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:89e49e00-ec28-49da-92d4-ddee4dfed69a,port:8348
+2017-07-04 13:21:58,993 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2017-07-04 13:21:58,993 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 13:22:54,252 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 13:22:54,287 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:e838909a-d329-4ff0-80f1-8fa36c5b6608,port:8956
+2017-07-04 13:23:04,364 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2017-07-04 13:23:04,364 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 13:23:13,667 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 13:23:13,695 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:file:///C:/Users/Danielle/Desktop/beans.html,memfile:623b1698-8541-4506-a99f-677cb6d52a24,port:8452
+2017-07-04 13:23:17,808 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 13:23:38,181 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 13:23:38,210 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:file:///C:/Users/Danielle/Desktop/beans.html,memfile:42640d18-ef11-4174-b4ab-9b0da7cea497,port:8328
+2017-07-04 13:23:42,727 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 13:23:53,033 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 13:23:53,062 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:file:///C:/Users/Danielle/Desktop/beans.html,memfile:ff4355e8-6d5a-4e5c-b5b2-8c80581a16d1,port:8266
+2017-07-04 13:23:58,281 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 13:24:06,992 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 13:24:07,021 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:769f5dc8-82e6-40f4-8f6d-56fae65ba663,port:8878
+2017-07-04 13:24:17,101 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2017-07-04 13:24:17,102 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 13:24:17,838 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 13:24:17,869 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:8fd453d8-ad0d-4f7e-adfe-2bb522ad5da7,port:8435
+2017-07-04 13:24:27,737 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 13:25:05,337 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 13:25:05,366 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:b9fe0136-b2b0-4ea9-b26c-22ed28109c73,port:8135
+2017-07-04 13:26:39,659 [12] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 13:26:48,306 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 13:26:48,335 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:https://www.youtube.com/watch?v=VBttsxmmFhs,memfile:731954e3-0e8c-4f70-9d2d-03d51098125b,port:8394
+2017-07-04 13:28:38,021 [12] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 13:38:52,350 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 13:38:52,380 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:https://www.youtube.com/watch?v=VBttsxmmFhs,memfile:df4b9cb0-8627-462b-9ced-c7d181f09f1a,port:8242
+2017-07-04 13:39:13,083 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 13:39:38,480 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 13:39:38,508 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:https://www.youtube.com/watch?v=VBttsxmmFhs,memfile:9f2ed2fe-8738-4207-99cd-49b6f81cdfa9,port:8849
+2017-07-04 13:39:59,378 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 13:40:09,352 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 13:40:09,380 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:c98459ac-d95b-4f78-9c75-a69123776e00,port:8265
+2017-07-04 13:41:01,230 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 13:43:01,049 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 13:43:01,078 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:https://www.youtube.com/watch?v=VBttsxmmFhs,memfile:c9c29e60-5508-49aa-8b2b-c99a56548b0d,port:8084
+2017-07-04 13:43:18,368 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 13:43:57,305 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 13:43:57,333 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:https://www.youtube.com/watch?v=VBttsxmmFhs,memfile:33d83667-3912-4b46-95da-fe4ad8795829,port:8397
+2017-07-04 13:44:12,039 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 13:44:49,750 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 13:44:49,778 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:https://www.youtube.com/watch?v=VBttsxmmFhs,memfile:736629be-4742-4885-b927-177f567d0d92,port:8927
+2017-07-04 13:45:10,395 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 13:45:53,473 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 13:45:53,500 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:https://www.youtube.com/watch?v=VBttsxmmFhs,memfile:6b4187c8-528b-4c9b-b11c-7aaf016c7579,port:8637
+2017-07-04 13:46:01,252 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 13:48:19,427 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 13:48:19,455 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:https://www.youtube.com/watch?v=VBttsxmmFhs,memfile:ac27fd9b-3d80-4dda-a548-033408fbb547,port:8552
+2017-07-04 13:48:39,147 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 13:49:26,649 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 13:49:26,677 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:https://www.youtube.com/watch?v=VBttsxmmFhs,memfile:b7ed41d6-8308-45db-a8d2-02e1e0fb7cda,port:8183
+2017-07-04 13:50:17,373 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 13:50:28,516 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 13:50:28,547 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:https://www.youtube.com/watch?v=VBttsxmmFhs,memfile:0c39dec8-f83f-48fa-b9fd-537161cf56f3,port:8910
+2017-07-04 13:52:23,888 [10] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 13:52:32,330 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 13:52:32,358 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:https://www.youtube.com/watch?v=VBttsxmmFhs,memfile:9683fc69-94e4-43a6-9fc1-1df3fc0ba3ef,port:8535
+2017-07-04 13:53:36,252 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 13:53:45,003 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 13:53:45,032 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:https://www.youtube.com/watch?v=VBttsxmmFhs,memfile:039f5445-3fc7-48bb-9e6b-6b9c79c189e2,port:8535
+2017-07-04 13:53:49,015 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 13:54:57,710 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 13:54:57,737 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:https://www.youtube.com/watch?v=1TlwVs58qpw,memfile:0ebb1062-2b8a-48b5-8a21-adb3d7b943e7,port:8619
+2017-07-04 13:56:20,609 [10] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 13:56:28,288 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 13:56:28,316 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:1024,url:https://www.youtube.com/watch?v=1TlwVs58qpw,memfile:13a7762a-0473-49d8-8f92-d3c4f0d0765d,port:8793
+2017-07-04 13:57:09,018 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 13:57:16,738 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 13:57:16,766 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:512,height:512,url:https://www.youtube.com/watch?v=1TlwVs58qpw,memfile:f8a1c324-265c-4304-bcd0-9d5724bac6e4,port:8064
+2017-07-04 13:57:33,432 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 13:57:41,199 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 13:57:41,227 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:512,url:https://www.youtube.com/watch?v=1TlwVs58qpw,memfile:879347fd-5e1b-4cf5-9ad1-5b3a49f93ba6,port:8351
+2017-07-04 13:57:50,428 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 13:57:55,173 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 13:57:55,201 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:1024,url:https://www.youtube.com/watch?v=1TlwVs58qpw,memfile:dc2f3cd3-59f5-403f-bd37-f4d43765b742,port:8983
+2017-07-04 14:00:47,403 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 14:01:05,184 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 14:01:05,212 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:1024,url:https://www.youtube.com/watch?v=1TlwVs58qpw,memfile:ff3a74e7-0a9b-4f6c-a030-615fc25b8f28,port:8211
+2017-07-04 14:02:30,636 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 14:02:44,412 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 14:02:44,439 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:1024,url:https://www.youtube.com/watch?v=1TlwVs58qpw,memfile:b3275ac3-a087-4edd-a936-922588f5aabb,port:8485
+2017-07-04 14:02:46,194 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 14:02:57,298 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 14:02:57,325 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:1024,url:https://www.youtube.com/watch?v=1TlwVs58qpw,memfile:06077bc6-fede-416a-8dd8-22016b0f9f53,port:8907
+2017-07-04 14:03:02,077 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 14:03:12,048 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 14:03:12,076 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:1024,url:https://www.youtube.com/watch?v=1TlwVs58qpw,memfile:37b27875-6ff5-4340-8a00-eb08f288b44f,port:8170
+2017-07-04 14:03:15,910 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 14:03:46,549 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 14:03:46,577 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:1024,url:https://www.youtube.com/watch?v=1TlwVs58qpw,memfile:253e589f-d542-43a0-a40a-2b6684dd349c,port:8162
+2017-07-04 14:03:48,125 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 14:06:28,291 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 14:06:28,318 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:1024,url:https://www.youtube.com/watch?v=1TlwVs58qpw,memfile:96719f9c-1b66-4830-80e2-d01e3bf42558,port:8197
+2017-07-04 14:06:39,493 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 14:07:08,433 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 14:07:08,461 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:1024,url:https://www.youtube.com/watch?v=1TlwVs58qpw,memfile:1dbc84c6-af60-4845-8db2-50189344dff7,port:8765
+2017-07-04 14:07:36,867 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 14:18:33,289 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 14:18:33,317 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:1024,url:https://www.youtube.com/watch?v=1TlwVs58qpw,memfile:228b9b52-cd91-416a-a0e8-91391d55924e,port:8436
+2017-07-04 14:18:39,873 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 14:18:58,835 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 14:18:58,863 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:1024,url:https://www.youtube.com/watch?v=1TlwVs58qpw,memfile:068276e5-7d7a-43be-9020-636ebe0440b9,port:8540
+2017-07-04 14:19:13,404 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 14:19:57,857 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 14:19:57,886 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:1024,url:https://www.youtube.com/watch?v=1TlwVs58qpw,memfile:af879662-5e16-4900-8c3f-23b1979ee314,port:8428
+2017-07-04 14:20:25,007 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 14:20:52,264 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 14:20:52,292 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:1024,url:https://www.youtube.com/watch?v=1TlwVs58qpw,memfile:51d01f98-2781-4021-a61a-74c85a29001c,port:8901
+2017-07-04 14:21:02,133 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 14:27:19,618 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 14:27:19,649 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:1024,url:https://www.youtube.com/watch?v=1TlwVs58qpw,memfile:50afe88f-f4f2-4688-96ed-fea6715f3688,port:8327
+2017-07-04 14:27:23,989 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 14:28:31,027 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 14:28:31,054 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:1024,url:https://www.youtube.com/watch?v=1TlwVs58qpw,memfile:a9dc1c52-39c1-4a0a-baf2-faf95def0404,port:8623
+2017-07-04 14:28:33,234 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 14:29:20,248 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 14:29:20,277 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:1024,url:https://www.youtube.com/watch?v=1TlwVs58qpw,memfile:4bb5c7a7-99e5-4fb8-9501-051dfee8530b,port:8525
+2017-07-04 14:29:28,528 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 14:29:41,518 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 14:29:41,546 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:1024,url:https://www.youtube.com/watch?v=1TlwVs58qpw,memfile:5e0a2937-a344-4e9b-a938-dbc9572d2d1e,port:8023
+2017-07-04 14:30:00,585 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 14:30:49,621 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 14:30:49,648 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:1024,url:https://www.youtube.com/watch?v=1TlwVs58qpw,memfile:a162ccd7-3ea8-44df-b4c5-beaf639d5a1f,port:8692
+2017-07-04 14:30:58,086 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 14:31:56,972 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 14:31:57,001 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:1024,url:https://www.youtube.com/watch?v=1TlwVs58qpw,memfile:9d5de28a-d6cd-4c43-8df1-78531736cc44,port:8979
+2017-07-04 14:32:05,209 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 14:32:25,536 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 14:32:25,565 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:1024,url:https://www.youtube.com/watch?v=1TlwVs58qpw,memfile:9cb45445-09d1-443d-bdb4-a4862bb728b3,port:8094
+2017-07-04 14:33:45,802 [10] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 14:34:40,966 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 14:34:40,994 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:1024,url:https://www.youtube.com/watch?v=1TlwVs58qpw,memfile:73f78953-8137-4d51-a3e9-9e876d228eb5,port:8211
+2017-07-04 14:41:56,393 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 14:42:08,697 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 14:42:08,726 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:2048,height:2048,url:https://www.youtube.com/watch?v=1TlwVs58qpw,memfile:f17cb048-7b5e-4854-8b9b-33776f9f2b9d,port:8493
+2017-07-04 14:42:51,979 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-04 14:43:06,065 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-04 14:43:06,093 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:1024,url:https://www.youtube.com/watch?v=1TlwVs58qpw,memfile:c8e23886-75ba-404c-a499-bd84b67f5b7d,port:8300
+2017-07-04 15:39:27,553 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-19 18:27:21,065 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 18:27:22,358 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:1024,url:https://phylliida.github.io,memfile:81cd1b31-472c-491c-93a1-eaabc68bf6d2,port:8731
+2017-07-19 18:27:43,086 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-19 18:29:25,835 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 18:29:25,866 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:1024,url:https://phylliida.github.io,memfile:58bf65b8-a690-4ba9-809b-1a88d1c3a227,port:8090
+2017-07-19 18:29:40,977 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-19 18:30:48,434 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 18:30:48,466 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:1024,url:https://phylliida.github.io,memfile:cbe619c3-bd97-49c8-94cb-fef4a27f4d06,port:8281
+2017-07-19 18:31:08,393 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-19 18:32:01,001 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 18:32:01,033 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:1024,url:https://phylliida.github.io,memfile:75a4fe23-202b-4f40-8949-916a244dff13,port:8424
+2017-07-19 18:32:45,965 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-19 18:41:55,374 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 18:41:55,405 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:2e01cb7a-2672-4a17-8da6-ab900e937736,port:8880
+2017-07-19 18:42:03,026 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-19 18:42:31,253 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 18:42:31,285 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:643ec40f-41f0-4899-8f6e-1adb027c4c57,port:8146
+2017-07-19 18:43:09,000 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-19 18:54:33,646 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 18:54:33,681 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:49ae127b-1659-4d4c-a0ad-6a0d98802660,port:8609
+2017-07-19 18:54:38,379 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-19 18:57:53,506 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 18:57:53,537 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:7f39e795-3fa8-48c5-9d84-5ebdd05bdce1,port:8945
+2017-07-19 18:58:50,259 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-19 18:59:07,264 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 18:59:07,294 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:a938d3b2-9be7-4bd8-bfd5-63a6cf25a8ae,port:8419
+2017-07-19 18:59:39,946 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-19 19:00:36,367 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 19:00:36,397 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:806e954b-1733-4c77-a966-2483ac33111c,port:8703
+2017-07-19 19:01:08,528 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-19 19:01:52,565 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 19:01:52,599 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:4bc4d904-bd60-44b9-8a63-99b9cdadff6c,port:8011
+2017-07-19 19:02:09,178 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-19 19:02:35,052 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 19:02:35,082 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:255cc8af-5e92-4542-aeb9-d441bded4065,port:8900
+2017-07-19 19:02:52,078 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-19 19:03:59,542 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 19:03:59,573 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:533074d9-c9ec-467c-bc79-b025a2118520,port:8769
+2017-07-19 19:04:03,500 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2017-07-19 19:04:03,735 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 19:04:03,767 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:533074d9-c9ec-467c-bc79-b025a2118520,port:8769
+2017-07-19 19:04:07,533 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2017-07-19 19:04:07,864 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 19:04:07,894 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:533074d9-c9ec-467c-bc79-b025a2118520,port:8769
+2017-07-19 19:04:50,205 [10] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-19 19:04:52,864 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 19:04:52,895 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:1ca3287f-25cc-44c7-868b-fe3956066ae4,port:8053
+2017-07-19 19:05:05,617 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-19 19:05:08,431 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 19:05:08,462 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:bea88c65-1089-4a4a-965a-eef79bc27e9c,port:8927
+2017-07-19 19:05:54,213 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-19 19:05:56,703 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 19:05:56,734 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:640e8bcc-0dd4-4533-8526-dbee314c40bc,port:8419
+2017-07-19 19:06:46,596 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-19 19:07:06,901 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 19:07:06,932 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:fc14c05a-e1d3-4a84-afc4-7ce3100dddce,port:8384
+2017-07-19 19:07:24,825 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-19 19:08:17,819 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 19:08:17,850 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:305d1a13-acf5-4bfc-b48c-8682e005f1c6,port:8303
+2017-07-19 19:08:32,803 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-19 19:09:23,415 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 19:09:23,445 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:1ae10e38-29bb-4e19-b991-fc9e5e5a3b1d,port:8406
+2017-07-19 19:09:39,163 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-19 19:13:00,765 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 19:13:00,796 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:bc9df5ce-09c9-46bb-bdc0-35ab276ebeef,port:8045
+2017-07-19 19:13:11,953 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-19 19:14:00,079 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 19:14:00,111 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:5588b2ab-f947-41ef-802d-df3cbee5433f,port:8349
+2017-07-19 19:14:03,994 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2017-07-19 19:14:04,272 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 19:14:04,302 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:5588b2ab-f947-41ef-802d-df3cbee5433f,port:8349
+2017-07-19 19:15:36,470 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-19 19:16:17,422 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 19:16:17,453 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:81b9cb41-ba82-4518-8770-251e65a928a0,port:8288
+2017-07-19 19:18:09,642 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-19 19:18:11,792 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 19:18:11,823 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:4d461a24-516c-4425-bd28-5f71f490ec03,port:8221
+2017-07-19 19:18:24,212 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-19 19:19:51,119 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 19:19:51,154 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:f6645e3f-edf7-4d60-83df-01e01fe1b309,port:8314
+2017-07-19 19:19:54,243 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 19:19:54,275 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:f6645e3f-edf7-4d60-83df-01e01fe1b309,port:8314
+2017-07-19 19:19:57,081 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2017-07-19 19:19:57,339 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 19:19:57,375 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:f6645e3f-edf7-4d60-83df-01e01fe1b309,port:8314
+2017-07-19 19:22:14,228 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-19 19:22:18,743 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 19:22:18,774 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:b2f39d31-6b62-4791-b267-6d09e0996ba3,port:8041
+2017-07-19 19:22:32,498 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-19 19:23:37,583 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 19:23:37,615 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:2d45b347-fe11-4cc1-a1d7-7414786c787d,port:8963
+2017-07-19 19:24:09,344 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-19 19:46:27,723 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 19:46:27,758 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:f7399676-2588-4a3d-9f27-f1d3bff98290,port:8186
+2017-07-19 19:46:30,874 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 19:46:30,911 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:f7399676-2588-4a3d-9f27-f1d3bff98290,port:8186
+2017-07-19 19:46:42,275 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-19 19:48:07,552 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 19:48:07,583 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:e25f0c03-34ff-42d1-a9f3-3c6db7f4e16f,port:8474
+2017-07-19 19:48:55,452 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-19 19:50:18,549 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 19:50:18,581 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:7d824fa7-8be7-4bf4-b832-53f6544196df,port:8510
+2017-07-19 19:54:56,144 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-19 19:55:12,129 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 19:55:12,160 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:e4acee9f-5d85-4a3f-97f9-306bb9841d86,port:8933
+2017-07-19 19:56:08,700 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-19 19:59:41,633 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 19:59:41,672 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:f2a57dd7-2a6c-4fa6-a474-24f591c16781,port:8725
+2017-07-19 19:59:50,882 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-19 20:00:53,755 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 20:00:53,788 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:811d94cf-ca42-4e27-991d-7d07fa23fe10,port:8672
+2017-07-19 20:00:56,917 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:811d94cf-ca42-4e27-991d-7d07fa23fe10,port:8672
+2017-07-19 20:01:00,570 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2017-07-19 20:01:00,829 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2017-07-19 20:01:01,049 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 20:01:01,082 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:811d94cf-ca42-4e27-991d-7d07fa23fe10,port:8672
+2017-07-19 20:01:04,281 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2017-07-19 20:01:04,475 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 20:01:04,508 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://test.webrtc.org,memfile:MainSharedMem,port:8885
+2017-07-19 20:01:07,861 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2017-07-19 20:01:08,397 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 20:01:08,430 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:811d94cf-ca42-4e27-991d-7d07fa23fe10,port:8672
+2017-07-19 20:01:11,623 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 20:01:11,660 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:811d94cf-ca42-4e27-991d-7d07fa23fe10,port:8672
+2017-07-19 20:01:15,310 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2017-07-19 20:01:15,737 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 20:01:15,770 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:811d94cf-ca42-4e27-991d-7d07fa23fe10,port:8672
+2017-07-19 20:01:23,606 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-07-19 20:01:26,100 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 20:01:26,133 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:10,height:10,url:https://phylliida.github.io,memfile:43e1b95a-d78f-4730-ac12-cf21923aed47,port:8265
+2017-07-19 20:01:29,222 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2017-07-19 20:01:29,481 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-07-19 20:01:29,517 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://test.webrtc.org,memfile:MainSharedMem,port:8885

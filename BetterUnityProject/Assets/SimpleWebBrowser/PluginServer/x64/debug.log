@@ -1,0 +1,323 @@
+[0227/161838:INFO:user_input_monitor_win.cc(168)] RegisterRawInputDevices() failed for RIDEV_REMOVE: The parameter is incorrect. (0x57)
+[0227/161842:ERROR:audio_output_device.cc(369)] IO loop going away before the audio device has been stopped
+[0227/161842:ERROR:audio_input_device.cc(269)] IO loop going away before the input device has been stopped
+[0227/163741.322:ERROR:audio_output_device.cc(425)] IO loop going away before the audio device has been stopped
+[0227/163756.015:INFO:user_input_monitor_win.cc(171)] RegisterRawInputDevices() failed for RIDEV_REMOVE: The parameter is incorrect. (0x57)
+[0227/163812.534:INFO:user_input_monitor_win.cc(171)] RegisterRawInputDevices() failed for RIDEV_REMOVE: The parameter is incorrect. (0x57)
+[0227/163816.970:ERROR:audio_output_device.cc(425)] IO loop going away before the audio device has been stopped
+[0227/165104.252:ERROR:audio_output_device.cc(425)] IO loop going away before the audio device has been stopped
+[0227/165741.013:ERROR:audio_output_device.cc(425)] IO loop going away before the audio device has been stopped
+[0227/170132.406:ERROR:audio_output_device.cc(425)] IO loop going away before the audio device has been stopped
+[0227/170431.307:ERROR:audio_output_device.cc(425)] IO loop going away before the audio device has been stopped
+[0227/170436.887:ERROR:audio_output_device.cc(425)] IO loop going away before the audio device has been stopped
+[0227/170438.201:INFO:user_input_monitor_win.cc(171)] RegisterRawInputDevices() failed for RIDEV_REMOVE: The parameter is incorrect. (0x57)
+[0227/170449.972:INFO:user_input_monitor_win.cc(171)] RegisterRawInputDevices() failed for RIDEV_REMOVE: The parameter is incorrect. (0x57)
+[0227/170452.622:ERROR:audio_output_device.cc(425)] IO loop going away before the audio device has been stopped
+[0227/170453.974:INFO:user_input_monitor_win.cc(171)] RegisterRawInputDevices() failed for RIDEV_REMOVE: The parameter is incorrect. (0x57)
+[0227/170505.326:ERROR:audio_output_device.cc(425)] IO loop going away before the audio device has been stopped
+[0227/170506.672:INFO:user_input_monitor_win.cc(171)] RegisterRawInputDevices() failed for RIDEV_REMOVE: The parameter is incorrect. (0x57)
+[0704/132651.949:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/132651.949:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/133855.185:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/133855.186:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/133913.141:WARNING:audio_output_dispatcher_impl.cc(138)] Active proxy streams during shutdown: 1
+[0704/133913.249:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=1
+[0704/133913.269:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=2
+[0704/133913.290:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=3
+[0704/133940.969:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/133940.969:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/133959.424:WARNING:audio_output_dispatcher_impl.cc(138)] Active proxy streams during shutdown: 1
+[0704/133959.491:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=1
+[0704/133959.511:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=2
+[0704/134001.676:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=3
+[0704/134018.047:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/134018.047:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/134101.242:WARNING:audio_output_dispatcher_impl.cc(138)] Active proxy streams during shutdown: 1
+[0704/134102.665:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=1
+[0704/134303.676:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/134303.677:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/134318.399:WARNING:audio_output_dispatcher_impl.cc(138)] Active proxy streams during shutdown: 1
+[0704/134400.063:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/134400.063:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/134412.053:WARNING:audio_output_dispatcher_impl.cc(138)] Active proxy streams during shutdown: 1
+[0704/134452.840:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/134452.840:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/134510.427:WARNING:audio_output_dispatcher_impl.cc(138)] Active proxy streams during shutdown: 1
+[0704/134512.179:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=1
+[0704/134556.314:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/134556.314:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/134601.279:WARNING:audio_output_dispatcher_impl.cc(138)] Active proxy streams during shutdown: 1
+[0704/134822.258:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/134822.258:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/134839.174:WARNING:audio_output_dispatcher_impl.cc(138)] Active proxy streams during shutdown: 1
+[0704/134839.263:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=1
+[0704/134839.286:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=2
+[0704/134841.137:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=3
+[0704/134929.658:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/134929.658:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/135017.411:WARNING:audio_output_dispatcher_impl.cc(138)] Active proxy streams during shutdown: 1
+[0704/135017.478:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=1
+[0704/135019.167:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=2
+[0704/135031.417:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/135031.418:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/135235.494:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/135235.495:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/135336.283:WARNING:audio_output_dispatcher_impl.cc(138)] Active proxy streams during shutdown: 1
+[0704/135336.356:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=1
+[0704/135336.376:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=2
+[0704/135336.406:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=3
+[0704/135338.732:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=4
+[0704/135347.685:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/135347.685:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/135349.042:WARNING:audio_output_dispatcher_impl.cc(138)] Active proxy streams during shutdown: 1
+[0704/135500.424:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/135500.424:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/135631.123:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/135631.124:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/135709.051:WARNING:audio_output_dispatcher_impl.cc(138)] Active proxy streams during shutdown: 1
+[0704/135709.111:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=1
+[0704/135709.141:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=2
+[0704/135710.839:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=3
+[0704/135719.487:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/135719.489:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/135733.468:WARNING:audio_output_dispatcher_impl.cc(138)] Active proxy streams during shutdown: 1
+[0704/135733.502:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=1
+[0704/135733.522:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=2
+[0704/135733.543:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=3
+[0704/135735.287:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=4
+[0704/135743.927:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/135743.929:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/135750.445:WARNING:audio_output_dispatcher_impl.cc(138)] Active proxy streams during shutdown: 1
+[0704/135758.098:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/135758.098:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/140108.230:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/140108.230:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/140300.383:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/140300.383:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/140302.104:WARNING:audio_output_dispatcher_impl.cc(138)] Active proxy streams during shutdown: 1
+[0704/140302.178:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=1
+[0704/140302.208:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=2
+[0704/140302.228:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=3
+[0704/140302.248:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=4
+[0704/140303.411:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=5
+[0704/140314.812:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/140314.812:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/140315.940:WARNING:audio_output_dispatcher_impl.cc(138)] Active proxy streams during shutdown: 1
+[0704/140630.858:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/140630.859:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/140639.533:WARNING:audio_output_dispatcher_impl.cc(138)] Active proxy streams during shutdown: 1
+[0704/140639.616:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=1
+[0704/140639.636:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=2
+[0704/140641.497:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=3
+[0704/140711.117:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/140711.117:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/140736.905:WARNING:audio_output_dispatcher_impl.cc(138)] Active proxy streams during shutdown: 1
+[0704/140736.971:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=1
+[0704/140736.992:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=2
+[0704/140738.644:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=3
+[0704/141836.310:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/141836.312:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/141839.894:WARNING:audio_output_dispatcher_impl.cc(138)] Active proxy streams during shutdown: 1
+[0704/141901.744:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/141901.745:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/141913.432:WARNING:audio_output_dispatcher_impl.cc(138)] Active proxy streams during shutdown: 1
+[0704/141913.506:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=1
+[0704/141915.019:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=2
+[0704/142001.371:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/142001.371:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/142025.042:WARNING:audio_output_dispatcher_impl.cc(138)] Active proxy streams during shutdown: 1
+[0704/142055.149:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/142055.149:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/142102.165:WARNING:audio_output_dispatcher_impl.cc(138)] Active proxy streams during shutdown: 1
+[0704/142722.462:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/142722.463:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/142724.009:WARNING:audio_output_dispatcher_impl.cc(138)] Active proxy streams during shutdown: 1
+[0704/142833.238:WARNING:spdy_session.cc(2224)] Received HEADERS for invalid stream 3
+[0704/142923.089:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/142923.089:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/142928.578:WARNING:audio_output_dispatcher_impl.cc(138)] Active proxy streams during shutdown: 1
+[0704/142928.608:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=1
+[0704/142928.629:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=2
+[0704/142928.659:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=3
+[0704/142929.593:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=4
+[0704/142944.165:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/142944.166:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/143000.626:WARNING:audio_output_dispatcher_impl.cc(138)] Active proxy streams during shutdown: 1
+[0704/143000.720:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=1
+[0704/143002.216:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=2
+[0704/143052.597:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/143052.598:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/143058.124:WARNING:audio_output_dispatcher_impl.cc(138)] Active proxy streams during shutdown: 1
+[0704/143058.177:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=1
+[0704/143058.198:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=2
+[0704/143058.218:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=3
+[0704/143059.506:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=4
+[0704/143159.692:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/143159.693:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/143205.240:WARNING:audio_output_dispatcher_impl.cc(138)] Active proxy streams during shutdown: 1
+[0704/143228.315:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/143228.316:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/143444.498:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/143444.498:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/144211.834:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/144211.835:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/144252.012:WARNING:audio_output_dispatcher_impl.cc(138)] Active proxy streams during shutdown: 1
+[0704/144252.134:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=1
+[0704/144252.155:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=2
+[0704/144252.185:WARNING:audio_sync_reader.cc(166)] AudioSyncReader::Read timed out, audio glitch count=3
+[0704/144308.736:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/144308.736:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0704/151308.737:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0719/183204.363:WARNING:stunport.cc(385)] Jingle:Port[000001A1B51B0100:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/183204.363:WARNING:stunport.cc(385)] Jingle:Port[000001A1B51B0100:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/183204.373:WARNING:p2ptransportchannel.cc(518)] Jingle:Port[000001A1B34A11D0:data:1:0:local:Net[any:0.0.0.x/0:Unknown]]: SetOption(5, 0) failed: 0
+[0719/183204.373:WARNING:p2ptransportchannel.cc(518)] Jingle:Port[000001A1B34A0E40:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: SetOption(5, 0) failed: 0
+[0719/183213.870:ERROR:stunport.cc(89)] Binding request timed out from 0.0.0.x:55606 (any)
+[0719/183231.792:WARNING:stunport.cc(385)] Jingle:Port[000001A1B5373510:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/183231.792:WARNING:stunport.cc(385)] Jingle:Port[000001A1B5373510:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/183231.882:WARNING:dtlstransportchannel.cc(508)] Jingle:Channel[data|1|__]: Packet received before we know if we are doing DTLS or not.
+[0719/183231.891:WARNING:p2ptransportchannel.cc(518)] Jingle:Port[000001A1B34A18F0:data:1:0:local:Net[any:0.0.0.x/0:Unknown]]: SetOption(5, 0) failed: 0
+[0719/183231.891:WARNING:p2ptransportchannel.cc(518)] Jingle:Port[000001A1B34A2010:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: SetOption(5, 0) failed: 0
+[0719/183232.096:ERROR:socket_host_udp.cc(246)] Received unexpected data packet from 67.164.197.212:38021 before STUN binding is finished.
+[0719/183241.296:ERROR:stunport.cc(89)] Binding request timed out from 0.0.0.x:51687 (any)
+[0719/184242.748:WARNING:stunport.cc(385)] Jingle:Port[000001D7680187D0:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/184242.750:WARNING:stunport.cc(385)] Jingle:Port[000001D7680187D0:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/184242.812:WARNING:p2ptransportchannel.cc(518)] Jingle:Port[000001D7681884A0:data:1:0:local:Net[any:0.0.0.x/0:Unknown]]: SetOption(5, 0) failed: 0
+[0719/184242.812:WARNING:p2ptransportchannel.cc(518)] Jingle:Port[000001D768189040:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: SetOption(5, 0) failed: 0
+[0719/184243.105:WARNING:dtlstransportchannel.cc(508)] Jingle:Channel[data|1|__]: Packet received before we know if we are doing DTLS or not.
+[0719/184252.256:ERROR:stunport.cc(89)] Binding request timed out from 0.0.0.x:62361 (any)
+[0719/184302.543:WARNING:stunport.cc(385)] Jingle:Port[000001D7681DB8F0:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/184302.543:WARNING:stunport.cc(385)] Jingle:Port[000001D7681DB8F0:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/184302.633:WARNING:dtlstransportchannel.cc(508)] Jingle:Channel[data|1|__]: Packet received before we know if we are doing DTLS or not.
+[0719/184302.643:WARNING:p2ptransportchannel.cc(518)] Jingle:Port[000001D74C201AA0:data:1:0:local:Net[any:0.0.0.x/0:Unknown]]: SetOption(5, 0) failed: 0
+[0719/184302.643:WARNING:p2ptransportchannel.cc(518)] Jingle:Port[000001D74C201E30:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: SetOption(5, 0) failed: 0
+[0719/184302.848:ERROR:socket_host_udp.cc(246)] Received unexpected data packet from 67.164.197.212:57364 before STUN binding is finished.
+[0719/190200.250:WARNING:stunport.cc(385)] Jingle:Port[00000132CECAB820:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/190200.267:WARNING:stunport.cc(385)] Jingle:Port[00000132CECAB820:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/190200.336:WARNING:dtlstransportchannel.cc(508)] Jingle:Channel[data|1|__]: Packet received before we know if we are doing DTLS or not.
+[0719/190200.344:WARNING:p2ptransportchannel.cc(518)] Jingle:Port[00000132B48D53C0:data:1:0:local:Net[any:0.0.0.x/0:Unknown]]: SetOption(5, 0) failed: 0
+[0719/190200.344:WARNING:p2ptransportchannel.cc(518)] Jingle:Port[00000132CEE2BE50:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: SetOption(5, 0) failed: 0
+[0719/190200.486:ERROR:socket_host_udp.cc(246)] Received unexpected data packet from 67.164.197.212:48443 before STUN binding is finished.
+[0719/190238.166:WARNING:stunport.cc(385)] Jingle:Port[0000025DD8374870:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/190238.177:WARNING:stunport.cc(385)] Jingle:Port[0000025DD8374870:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/190238.219:WARNING:basicportallocator.cc(724)] Discarding candidate because port is already done gathering.
+[0719/190247.683:ERROR:stunport.cc(89)] Binding request timed out from 0.0.0.x:61295 (any)
+[0719/190411.051:WARNING:stunport.cc(385)] Jingle:Port[00000263309402B0:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/190411.051:WARNING:stunport.cc(385)] Jingle:Port[00000263309402B0:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/190411.100:WARNING:basicportallocator.cc(724)] Discarding candidate because port is already done gathering.
+[0719/190420.555:ERROR:stunport.cc(89)] Binding request timed out from 0.0.0.x:57035 (any)
+[0719/190423.419:WARNING:stunport.cc(385)] Jingle:Port[00000263309458F0:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/190423.419:WARNING:stunport.cc(385)] Jingle:Port[00000263309458F0:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/190423.511:WARNING:dtlstransportchannel.cc(508)] Jingle:Channel[data|1|__]: Packet received before we know if we are doing DTLS or not.
+[0719/190423.517:WARNING:p2ptransportchannel.cc(518)] Jingle:Port[000002632EC1D2F0:data:1:0:local:Net[any:0.0.0.x/0:Unknown]]: SetOption(5, 0) failed: 0
+[0719/190423.517:WARNING:p2ptransportchannel.cc(518)] Jingle:Port[000002632EC1DA10:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: SetOption(5, 0) failed: 0
+[0719/190423.692:ERROR:socket_host_udp.cc(246)] Received unexpected data packet from 67.164.197.212:53045 before STUN binding is finished.
+[0719/190432.924:ERROR:stunport.cc(89)] Binding request timed out from 0.0.0.x:51137 (any)
+[0719/190439.598:WARNING:stunport.cc(385)] Jingle:Port[0000026330940700:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/190439.598:WARNING:stunport.cc(385)] Jingle:Port[0000026330940700:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/190439.693:WARNING:dtlstransportchannel.cc(508)] Jingle:Channel[data|1|__]: Packet received before we know if we are doing DTLS or not.
+[0719/190439.698:WARNING:p2ptransportchannel.cc(518)] Jingle:Port[000002632EC1DDA0:data:1:0:local:Net[any:0.0.0.x/0:Unknown]]: SetOption(5, 0) failed: 0
+[0719/190439.698:WARNING:p2ptransportchannel.cc(518)] Jingle:Port[000002632EC1E4C0:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: SetOption(5, 0) failed: 0
+[0719/190449.103:ERROR:stunport.cc(89)] Binding request timed out from 0.0.0.x:49665 (any)
+[0719/190457.284:WARNING:stunport.cc(385)] Jingle:Port[000001CFDF1EA420:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/190457.300:WARNING:stunport.cc(385)] Jingle:Port[000001CFDF1EA420:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/190457.378:WARNING:p2ptransportchannel.cc(518)] Jingle:Port[000001CFDF4C3A20:data:1:0:local:Net[any:0.0.0.x/0:Unknown]]: SetOption(5, 0) failed: 0
+[0719/190457.378:WARNING:p2ptransportchannel.cc(518)] Jingle:Port[000001CFDF4DD5F0:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: SetOption(5, 0) failed: 0
+[0719/190511.596:WARNING:stunport.cc(385)] Jingle:Port[00000250AF6AF050:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/190511.596:WARNING:stunport.cc(385)] Jingle:Port[00000250AF6AF050:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/190511.654:WARNING:basicportallocator.cc(724)] Discarding candidate because port is already done gathering.
+[0719/190511.763:ERROR:socket_host_udp.cc(246)] Received unexpected data packet from 67.164.197.212:50236 before STUN binding is finished.
+[0719/190521.103:ERROR:stunport.cc(89)] Binding request timed out from 0.0.0.x:61686 (any)
+[0719/190559.914:WARNING:stunport.cc(385)] Jingle:Port[00000265CDCBF010:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/190559.931:WARNING:stunport.cc(385)] Jingle:Port[00000265CDCBF010:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/190559.963:WARNING:basicportallocator.cc(724)] Discarding candidate because port is already done gathering.
+[0719/190609.436:ERROR:stunport.cc(89)] Binding request timed out from 0.0.0.x:49349 (any)
+[0719/190709.987:WARNING:stunport.cc(385)] Jingle:Port[00000163FAC7A070:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/190709.987:WARNING:stunport.cc(385)] Jingle:Port[00000163FAC7A070:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/190710.041:WARNING:basicportallocator.cc(724)] Discarding candidate because port is already done gathering.
+[0719/190719.494:ERROR:stunport.cc(89)] Binding request timed out from 0.0.0.x:61470 (any)
+[0719/190821.088:WARNING:stunport.cc(385)] Jingle:Port[000002336F044FB0:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/190821.088:WARNING:stunport.cc(385)] Jingle:Port[000002336F044FB0:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/190821.135:WARNING:basicportallocator.cc(724)] Discarding candidate because port is already done gathering.
+[0719/190830.594:ERROR:stunport.cc(89)] Binding request timed out from 0.0.0.x:53521 (any)
+[0719/190926.646:WARNING:stunport.cc(385)] Jingle:Port[0000024DB2E9A0A0:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/190926.646:WARNING:stunport.cc(385)] Jingle:Port[0000024DB2E9A0A0:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/190926.694:WARNING:basicportallocator.cc(724)] Discarding candidate because port is already done gathering.
+[0719/190936.154:ERROR:stunport.cc(89)] Binding request timed out from 0.0.0.x:51105 (any)
+[0719/191303.981:WARNING:stunport.cc(385)] Jingle:Port[00000204BA39A770:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/191303.981:WARNING:stunport.cc(385)] Jingle:Port[00000204BA39A770:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/191304.031:WARNING:basicportallocator.cc(724)] Discarding candidate because port is already done gathering.
+[0719/191407.317:WARNING:stunport.cc(385)] Jingle:Port[00000205DE654890:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/191407.317:WARNING:stunport.cc(385)] Jingle:Port[00000205DE654890:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/191407.365:WARNING:basicportallocator.cc(724)] Discarding candidate because port is already done gathering.
+[0719/191416.821:ERROR:stunport.cc(89)] Binding request timed out from 0.0.0.x:60196 (any)
+[0719/191620.608:WARNING:stunport.cc(385)] Jingle:Port[000001B7F500BC70:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/191620.608:WARNING:stunport.cc(385)] Jingle:Port[000001B7F500BC70:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/191620.655:WARNING:basicportallocator.cc(724)] Discarding candidate because port is already done gathering.
+[0719/191630.114:ERROR:stunport.cc(89)] Binding request timed out from 0.0.0.x:54715 (any)
+[0719/191814.951:WARNING:stunport.cc(385)] Jingle:Port[0000018B51651470:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/191814.951:WARNING:stunport.cc(385)] Jingle:Port[0000018B51651470:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/191815.000:WARNING:basicportallocator.cc(724)] Discarding candidate because port is already done gathering.
+[0719/192000.628:WARNING:stunport.cc(385)] Jingle:Port[000001A53A0A2220:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/192000.628:WARNING:stunport.cc(385)] Jingle:Port[000001A53A0A2220:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/192000.680:WARNING:basicportallocator.cc(724)] Discarding candidate because port is already done gathering.
+[0719/192010.135:ERROR:stunport.cc(89)] Binding request timed out from 0.0.0.x:56988 (any)
+[0719/192221.857:WARNING:stunport.cc(385)] Jingle:Port[00000249774337B0:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/192221.857:WARNING:stunport.cc(385)] Jingle:Port[00000249774337B0:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/192221.908:WARNING:basicportallocator.cc(724)] Discarding candidate because port is already done gathering.
+[0719/192231.369:ERROR:stunport.cc(89)] Binding request timed out from 0.0.0.x:59306 (any)
+[0719/192340.762:WARNING:stunport.cc(385)] Jingle:Port[00000280ECE52760:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/192340.762:WARNING:stunport.cc(385)] Jingle:Port[00000280ECE52760:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/192340.809:WARNING:basicportallocator.cc(724)] Discarding candidate because port is already done gathering.
+[0719/192350.268:ERROR:stunport.cc(89)] Binding request timed out from 0.0.0.x:49617 (any)
+[0719/192354.142:WARNING:stunport.cc(385)] Jingle:Port[00000280ECE54140:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/192354.142:WARNING:stunport.cc(385)] Jingle:Port[00000280ECE54140:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/192354.234:WARNING:dtlstransportchannel.cc(508)] Jingle:Channel[data|1|__]: Packet received before we know if we are doing DTLS or not.
+[0719/192354.240:WARNING:p2ptransportchannel.cc(518)] Jingle:Port[00000280ECE5D450:data:1:0:local:Net[any:0.0.0.x/0:Unknown]]: SetOption(5, 0) failed: 0
+[0719/192354.240:WARNING:p2ptransportchannel.cc(518)] Jingle:Port[00000280ED014A20:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: SetOption(5, 0) failed: 0
+[0719/192354.450:ERROR:socket_host_udp.cc(246)] Received unexpected data packet from 67.164.197.212:45641 before STUN binding is finished.
+[0719/192403.648:ERROR:stunport.cc(89)] Binding request timed out from 0.0.0.x:54651 (any)
+[0719/194634.046:WARNING:stunport.cc(385)] Jingle:Port[000001451BE5D440:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/194634.046:WARNING:stunport.cc(385)] Jingle:Port[000001451BE5D440:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/194634.101:WARNING:basicportallocator.cc(724)] Discarding candidate because port is already done gathering.
+[0719/194810.661:WARNING:stunport.cc(385)] Jingle:Port[0000024CDD614CE0:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/194810.661:WARNING:stunport.cc(385)] Jingle:Port[0000024CDD614CE0:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/194810.711:WARNING:basicportallocator.cc(724)] Discarding candidate because port is already done gathering.
+[0719/194820.168:ERROR:stunport.cc(89)] Binding request timed out from 0.0.0.x:50506 (any)
+[0719/195517.447:WARNING:stunport.cc(385)] Jingle:Port[000002F5D6272020:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/195517.447:WARNING:stunport.cc(385)] Jingle:Port[000002F5D6272020:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/195517.495:WARNING:basicportallocator.cc(724)] Discarding candidate because port is already done gathering.
+[0719/195526.953:ERROR:stunport.cc(89)] Binding request timed out from 0.0.0.x:58578 (any)
+[0719/195543.456:WARNING:stunport.cc(385)] Jingle:Port[000002F5D6279490:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/195543.456:WARNING:stunport.cc(385)] Jingle:Port[000002F5D6279490:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/195543.503:WARNING:basicportallocator.cc(724)] Discarding candidate because port is already done gathering.
+[0719/195552.962:ERROR:stunport.cc(89)] Binding request timed out from 0.0.0.x:55807 (any)
+[0719/195948.277:WARNING:stunport.cc(385)] Jingle:Port[000001EFC50F9490:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/195948.277:WARNING:stunport.cc(385)] Jingle:Port[000001EFC50FA5D0:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/195948.278:WARNING:stunport.cc(385)] Jingle:Port[000001EFC50F9490:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/195948.278:WARNING:stunport.cc(385)] Jingle:Port[000001EFC50FA5D0:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/195948.375:WARNING:p2ptransportchannel.cc(518)] Jingle:Port[000001EFC52DE0C0:data:1:0:local:Net[any:0.0.0.x/0:Unknown]]: SetOption(5, 0) failed: 0
+[0719/195948.375:WARNING:p2ptransportchannel.cc(518)] Jingle:Port[000001EFC52C3F00:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: SetOption(5, 0) failed: 0
+[0719/200111.190:ERROR:broker_win.cc(138)] Error sending sync broker message
+[0719/200111.190:WARNING:child_thread_impl.cc(738)] Browser failed to allocate shared memory
+[0719/200120.891:WARNING:stunport.cc(385)] Jingle:Port[0000026D1801F080:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/200120.891:WARNING:stunport.cc(385)] Jingle:Port[0000026D1801F080:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/200120.942:WARNING:basicportallocator.cc(724)] Discarding candidate because port is already done gathering.
+[0719/200121.267:WARNING:stunport.cc(385)] Jingle:Port[0000026D181B68F0:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/200121.268:WARNING:stunport.cc(385)] Jingle:Port[0000026D181B68F0:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/200135.282:WARNING:stunport.cc(385)] Jingle:Port[000001F56FD65AB0:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/200135.285:WARNING:stunport.cc(385)] Jingle:Port[000001F56FD65AB0:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/200135.371:WARNING:p2ptransportchannel.cc(518)] Jingle:Port[000001F56FF10C10:data:1:0:local:Net[any:0.0.0.x/0:Unknown]]: SetOption(5, 0) failed: 0
+[0719/200135.371:WARNING:p2ptransportchannel.cc(518)] Jingle:Port[000001F56FF12FB0:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: SetOption(5, 0) failed: 0
+[0719/200138.273:WARNING:stunport.cc(385)] Jingle:Port[000001F56FF0E290:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/200138.273:WARNING:stunport.cc(385)] Jingle:Port[000001F56FF0E290:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/200138.326:WARNING:basicportallocator.cc(724)] Discarding candidate because port is already done gathering.
+[0719/200144.787:ERROR:stunport.cc(89)] Binding request timed out from 0.0.0.x:52375 (any)
+[0719/200147.779:ERROR:stunport.cc(89)] Binding request timed out from 0.0.0.x:55759 (any)
+[0719/200157.381:WARNING:stunport.cc(385)] Jingle:Port[000001F56FF0A1E0:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/200157.381:WARNING:stunport.cc(385)] Jingle:Port[000001F56FF0A1E0:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0719/200157.472:WARNING:dtlstransportchannel.cc(508)] Jingle:Channel[data|1|__]: Packet received before we know if we are doing DTLS or not.
+[0719/200157.481:WARNING:p2ptransportchannel.cc(518)] Jingle:Port[000001F56FF15F50:data:1:0:local:Net[any:0.0.0.x/0:Unknown]]: SetOption(5, 0) failed: 0
+[0719/200157.481:WARNING:p2ptransportchannel.cc(518)] Jingle:Port[000001F5700B68A0:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: SetOption(5, 0) failed: 0
+[0719/200157.633:ERROR:socket_host_udp.cc(246)] Received unexpected data packet from 67.164.197.212:42590 before STUN binding is finished.
+[0719/200206.886:ERROR:stunport.cc(89)] Binding request timed out from 0.0.0.x:64316 (any)

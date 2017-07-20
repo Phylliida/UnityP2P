@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterUnityProject", "BetterUnityProject.csproj", "{0E3E69CB-891D-B1E9-E574-C726C3108278}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterUnityProject.Editor", "BetterUnityProject.Editor.csproj", "{438A2766-AAB1-0C09-14AB-09049532B987}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E3E69CB-891D-B1E9-E574-C726C3108278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E3E69CB-891D-B1E9-E574-C726C3108278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E3E69CB-891D-B1E9-E574-C726C3108278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E3E69CB-891D-B1E9-E574-C726C3108278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{438A2766-AAB1-0C09-14AB-09049532B987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{438A2766-AAB1-0C09-14AB-09049532B987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{438A2766-AAB1-0C09-14AB-09049532B987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{438A2766-AAB1-0C09-14AB-09049532B987}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
