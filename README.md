@@ -1,6 +1,12 @@
 # UnityP2P
 Peer to peer networking in Unity using WebRTC and a free Heroku server for signaling.
 
+
+UPDATE 2:
+
+I rewrote the code again (see BestUnityProject) because simulating chromium had a few bugs and all that was really needed was the WebRTC stuff. I used the staging branch of (WebRTC.NET)[https://github.com/radioman/WebRtc.NET] because it is built for .NET 3.5 which works in Unity. The code below (`ExampleUsage`) is still identical, the backend just changed so it is more reliable and lighter weight.
+
+
 UPDATE:
 
 I rewrote the code (see BetterUnityProject) because, if we're honest, it was trash. It worked okay but it disconnected every 40 seconds or so and then there was this time of inactivity before they got reconnected. Also, the whole "server" and "client" thing shouldn't actually be a thing: the point is you hop in a room and just see anyone else that is there.
@@ -15,7 +21,7 @@ using UnityP2P;
 
 public class ExampleUsage : MonoBehaviour {
 
-    public P2PPeer peer;
+    public Peer peer;
 
     // Use this for initialization
     void Start() {
