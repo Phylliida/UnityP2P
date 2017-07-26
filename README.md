@@ -4,7 +4,7 @@ Peer to peer networking in Unity using WebRTC and a free Heroku server for signa
 
 UPDATE 2:
 
-I rewrote the code again (see BestUnityProject) because simulating chromium had a few bugs and all that was really needed was the WebRTC stuff. I used the staging branch of (WebRTC.NET)[https://github.com/radioman/WebRtc.NET] because it is built for .NET 3.5 which works in Unity. The code below (`ExampleUsage`) is still identical, the backend just changed so it is more reliable and lighter weight.
+I rewrote the code again (see BestUnityProject) because simulating chromium had a few bugs and all that was really needed was the WebRTC stuff. I used the staging branch of [WebRTC.NET](https://github.com/radioman/WebRtc.NET) because it is built for .NET 3.5 which works in Unity. The code below (`ExampleUsage`) is still identical, the backend just changed so it is more reliable and lighter weight.
 
 
 UPDATE:
