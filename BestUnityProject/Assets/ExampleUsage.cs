@@ -11,7 +11,13 @@ public class ExampleUsage : MonoBehaviour
         peer.OnConnection += Peer_OnConnection;
         peer.OnDisconnection += Peer_OnDisconnection;
         peer.OnTextFromPeer += Peer_OnMessage;
+        peer.OnBytesFromPeer += Peer_OnBytesFromPeer;
         peer.OnGetID += Peer_OnGetID;
+    }
+
+    private void Peer_OnBytesFromPeer(string peer, byte[] bytes)
+    {
+        Debug.Log("got bytes: " + bytes.Length);
     }
 
     private void Peer_OnGetID(string id)
@@ -33,5 +39,6 @@ public class ExampleUsage : MonoBehaviour
     {
         Debug.Log(id + " connected");
         peer.Send(id, "Hi there");
+        peer.Send(id, new byte[] { 27, 28 });
     }
 }

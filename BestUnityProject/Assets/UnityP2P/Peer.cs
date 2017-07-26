@@ -22,7 +22,7 @@ namespace UnityP2P
         public delegate void OnDisconnectionCallback(string peer);
         public event OnDisconnectionCallback OnDisconnection;
 
-        public delegate void OnBytesFromPeerCallback(string peer, byte[] bytes, int offset, int len);
+        public delegate void OnBytesFromPeerCallback(string peer, byte[] bytes);
         public event OnBytesFromPeerCallback OnBytesFromPeer;
 
         public delegate void OnTextFromPeerCallback(string peer, string text);
@@ -35,9 +35,11 @@ namespace UnityP2P
         volatile bool needToCleanUp = false;
 
         public ConcurrentQueue<Tuple<string, string>> messagesToSend = new ConcurrentQueue<Tuple<string, string>>();
+        public ConcurrentQueue<Tuple<string, byte[]>> byteMessagesToSend = new ConcurrentQueue<Tuple<string, byte[]>>();
         public ConcurrentQueue<string> peersConnecting = new ConcurrentQueue<string>();
         public ConcurrentQueue<string> peersDisconnecting = new ConcurrentQueue<string>();
         public ConcurrentQueue<Tuple<string, string>> peerMessages = new ConcurrentQueue<Tuple<string, string>>();
+        public ConcurrentQueue<Tuple<string, byte[]>> peerByteMessages = new ConcurrentQueue<Tuple<string, byte[]>>();
 
         public string room = "test";
 
@@ -49,6 +51,7 @@ namespace UnityP2P
                 myPeer.OnConnection += Peer_OnConnection;
                 myPeer.OnDisconnection += Peer_OnDisconnection;
                 myPeer.OnTextFromPeer += Peer_OnTextFromPeer;
+                myPeer.OnBytesFromPeer += Peer_OnBytesFromPeer;
 
                 while (!needToCleanUp)
                 {
@@ -60,12 +63,23 @@ namespace UnityP2P
                     {
                         myPeer.Send(peerAndMessage.left, peerAndMessage.right);
                     }
+
+                    Tuple<string, byte[]> peerAndByteMessage;
+                    while (byteMessagesToSend.TryDequeue(out peerAndByteMessage))
+                    {
+                        myPeer.Send(peerAndByteMessage.left, peerAndByteMessage.right);
+                    }
                 }
 
                 myPeer.Dispose();
             });
             bean.IsBackground = false;
             bean.Start();
+        }
+
+        private void Peer_OnBytesFromPeer(string peer, byte[] bytes)
+        {
+            peerByteMessages.Enqueue(new Tuple<string, byte[]>(peer, bytes));
         }
 
         bool sentMyId = false;
@@ -106,6 +120,17 @@ namespace UnityP2P
                     OnTextFromPeer(peer, message);
                 }
             }
+
+            Tuple<string, byte[]> peerAndByteMessage;
+            while (peerByteMessages.TryDequeue(out peerAndByteMessage))
+            {
+                peer = peerAndByteMessage.left;
+                byte[] data = peerAndByteMessage.right;
+                if (OnTextFromPeer != null)
+                {
+                    OnBytesFromPeer(peer, data);
+                }
+            }
         }
 
         private void Peer_OnTextFromPeer(string peer, string text)
@@ -131,6 +156,19 @@ namespace UnityP2P
         public void Send(string peer, string message)
         {
             messagesToSend.Enqueue(new Tuple<string, string>(peer, message));
+        }
+
+        public void Send(string peer, byte[] data)
+        {
+            Send(peer, data, 0, data.Length);
+        }
+
+        public void Send(string peer, byte[] data, int offset, int len)
+        {
+            // An alternative is to ensure they don't change their buffer before it is sent but for now this should be fine
+            byte[] actualData = new byte[len];
+            Buffer.BlockCopy(data, offset, actualData, 0, len);
+            byteMessagesToSend.Enqueue(new Tuple<string, byte[]>(peer, actualData));
         }
 
         public void OnApplicationQuit()

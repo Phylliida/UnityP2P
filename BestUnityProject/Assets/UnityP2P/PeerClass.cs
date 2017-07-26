@@ -57,7 +57,7 @@ namespace UnityP2P
         public delegate void OnDisconnectionCallback(string peer);
         public event OnDisconnectionCallback OnDisconnection;
 
-        public delegate void OnBytesFromPeerCallback(string peer, byte[] bytes, int offset, int len);
+        public delegate void OnBytesFromPeerCallback(string peer, byte[] bytes);
         public event OnBytesFromPeerCallback OnBytesFromPeer;
 
         public delegate void OnTextFromPeerCallback(string peer, string text);
@@ -85,9 +85,16 @@ namespace UnityP2P
             websocket.Open();
             WebRtc = new WebRtcNative();
         }
+        
+        public void Send(string peer, byte[] data)
+        {
+            messageDatasNeedToSend.Enqueue(new Tuple<string, byte[]>(peer, data));
 
+        }
         public void Send(string peer, string text)
         {
+            messagesNeedToSend.Enqueue(new Tuple<string, string>(peer, text));
+            /*
             if (peersWithDataChannels.Contains(peer))
             {
                 peers[peer].DataChannelSendText(text);
@@ -96,9 +103,13 @@ namespace UnityP2P
             {
                 throw new Exception("we haven't connected to " + peer);
             }
+            */
         }
 
+        public ConcurrentQueue<Tuple<string, string>> messagesNeedToSend = new ConcurrentQueue<Tuple<string, string>>();
+        public ConcurrentQueue<Tuple<string, byte[]>> messageDatasNeedToSend = new ConcurrentQueue<Tuple<string, byte[]>>();
         public ConcurrentQueue<Tuple<string, string>> dataChannelMesagesReceived = new ConcurrentQueue<Tuple<string, string>>();
+        public ConcurrentQueue<Tuple<string, byte[]>> dataChannelByteMesagesReceived = new ConcurrentQueue<Tuple<string, byte[]>>();
         public Dictionary<string, WebRtcNative> peers = new Dictionary<string, WebRtcNative>();
         public HashSet<string> peersWithDataChannels = new HashSet<string>();
         public HashSet<string> safeToUpdate = new HashSet<string>();
@@ -264,6 +275,29 @@ namespace UnityP2P
                 }
             }
 
+            Tuple<string, byte[]> peerAndByteMessage;
+            while (dataChannelByteMesagesReceived.TryDequeue(out peerAndByteMessage))
+            {
+                string peer = peerAndByteMessage.left;
+                byte[] data = peerAndByteMessage.right;
+                if (peersWithDataChannels.Contains(peer))
+                {
+                    if (OnBytesFromPeer != null)
+                    {
+                        OnBytesFromPeer(peer, data);
+                    }
+                }
+                // Initial ping
+                else
+                {
+                    peersWithDataChannels.Add(peer);
+                    if (OnConnection != null)
+                    {
+                        OnConnection(peer);
+                    }
+                }
+            }
+
             foreach (string peer in safeToUpdate)
             {
                 if (peers.ContainsKey(peer))
@@ -272,6 +306,28 @@ namespace UnityP2P
                 }
             }
 
+            Tuple<string, string> messageToPeer;
+            while (messagesNeedToSend.TryDequeue(out messageToPeer))
+            {
+                string peer = messageToPeer.left;
+                string text = messageToPeer.right;
+                if (peersWithDataChannels.Contains(peer) && peers.ContainsKey(peer))
+                {
+                    peers[peer].DataChannelSendText(text);
+                }
+            }
+
+
+            Tuple<string, byte[]> messageDatasToPeer;
+            while (messageDatasNeedToSend.TryDequeue(out messageDatasToPeer))
+            {
+                string peer = messageDatasToPeer.left;
+                byte[] data = messageDatasToPeer.right;
+                if (peersWithDataChannels.Contains(peer) && peers.ContainsKey(peer))
+                {
+                    peers[peer].DataChannelSendData(data, data.Length);
+                }
+            }
         }
 
         void SetupConnectionWithPeer(string peer)
@@ -303,7 +359,10 @@ namespace UnityP2P
                 {
                     CurWebRtc_OnDataChannel(peer, label);
                 };
-                curWebRtc.OnDataBinaryMessage += CurWebRtc_OnDataBinaryMessage;
+                curWebRtc.OnDataBinaryMessage += (byte[] data) =>
+                {
+                    CurWebRtc_OnDataBinaryMessage(peer, data);
+                };
                 curWebRtc.OnError += CurWebRtc_OnError;
                 curWebRtc.OnFailure += CurWebRtc_OnFailure;
                 //curWebRtc.InitializePeerConnection();
@@ -311,9 +370,9 @@ namespace UnityP2P
             }
         }
 
-        private void CurWebRtc_OnDataBinaryMessage(byte[] msg)
+        private void CurWebRtc_OnDataBinaryMessage(string peer, byte[] data)
         {
-            //throw new NotImplementedException();
+            dataChannelByteMesagesReceived.Enqueue(new Tuple<string, byte[]>(peer, data));
         }
 
         private void CurWebRtc_OnDataChannel(string peer, string label)
@@ -349,7 +408,7 @@ namespace UnityP2P
 
         private void CurWebRtc_OnIceCandidate(string peer, string sdp_mid, int sdp_mline_index, string sdp)
         {
-            Debug.Log(myId + " made ice candidate");
+            //Debug.Log(myId + " made ice candidate");
             JsonData data = new JsonData();
             data["senderId"] = myId;
             data["messageType"] = "icecandidate";
@@ -362,7 +421,7 @@ namespace UnityP2P
 
         private void CurWebRtc_OnSuccessOffer(string peer, string sdp)
         {
-            Debug.Log(myId + " made offer");
+            //Debug.Log(myId + " made offer");
             JsonData data = new JsonData();
             data["senderId"] = myId;
             data["messageType"] = "offer";
@@ -412,7 +471,7 @@ namespace UnityP2P
                     }
                     else
                     {
-                        Debug.LogError("ice candidate sent from someone we haven't webrtcd with yet even though we tried to?");
+                        //Debug.LogError("ice candidate sent from someone we haven't webrtcd with yet even though we tried to?");
                     }
                 }
                 else if (messageType == "offer")
@@ -423,7 +482,7 @@ namespace UnityP2P
                         // Debug.Log("offer candidate not for me instead for: " + receiverId);
                         return;
                     }
-                    Debug.Log("got offer");
+                    //Debug.Log("got offer");
                     SetupConnectionWithPeer(senderId);
 
                     if (peers.ContainsKey(senderId))
@@ -438,7 +497,7 @@ namespace UnityP2P
                     }
                     else
                     {
-                        Debug.LogError("ice candidate sent from " + senderId + " who we haven't webrtcd with yet even though we tried to?");
+                        //Debug.LogError("ice candidate sent from " + senderId + " who we haven't webrtcd with yet even though we tried to?");
                     }
                 }
                 else if (messageType == "answer")
